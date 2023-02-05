@@ -57,7 +57,7 @@ const gltfLoader = new GLTFLoader(loadingManager);
 gltfLoader.setDRACOLoader(dracoLoader);
 
 const gridHelper = new THREE.GridHelper(5,5);
-scene.add(gridHelper);
+scene.add(gridHelper);  
 
 const clock = new THREE.Clock();
 const tick = () => {
