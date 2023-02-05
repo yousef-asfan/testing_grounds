@@ -69,7 +69,7 @@ const textureLoader = new THREE.TextureLoader(loadingManager);
 
 const cubeMesh = new THREE.Mesh(
   new THREE.BoxGeometry(2,2,2),
-  new THREE.MeshBasicMaterial({color: 0xff00ff})
+  new THREE.MeshBasicMaterial({color: 0xffffff})
 );
 cubeMesh.position.y = 1;
 scene.add(cubeMesh);
